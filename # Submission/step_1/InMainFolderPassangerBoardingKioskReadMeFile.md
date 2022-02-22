@@ -1,0 +1,1 @@
+README.md Covers all the suggestions 1,2 and 3. See the main README.md file
