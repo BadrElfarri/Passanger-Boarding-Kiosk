@@ -1,0 +1,28 @@
+AzureFormRecognizer:
+    key: 62691890697143b0925334cd2e0b972c
+    endpoint: https://formrecognizersandboxbadr.cognitiveservices.azure.com/
+    boardingPassModelId: cb6c5259-c721-4f5b-95be-61ff33ccaae5
+
+AzureFaceCognitiveService:
+    key: d5eafdd7d3fc43d983aff78cffd7a771
+    endpoint: https://facecognitiveservicesandbox.cognitiveservices.azure.com/
+
+AzureVideoIndexer:
+    subscription_key: b18a87cc5f2a422cbe4928f24a627179
+    location: trial
+    account_id: d6246491-59d4-4bad-a7f2-2ce48f44b8b0
+    video_id: faf7217f18
+
+AzureComputerVision:
+    endpoint: https://westeurope.api.cognitive.microsoft.com/
+    key: 535a7f299b704be292feb07a75fbb179
+    resource_id: /subscriptions/0a98ac71-86ab-4dca-a23d-09f0ee61d62c/resourceGroups/Sandbox/providers/Microsoft.CognitiveServices/accounts/lighterComputerVision
+    local_image_path: ../step_4/lighter_test_images/
+    image_name: lighter_test_set_1of5.jpg
+    project_id: 3185386f-0cc5-489a-b0dc-ad7d5e36b9d1
+    iteration_name: Iteration2
+
+Resources:
+    Driver_License_id: ../material_preparation_step/ca-dl-Badr.png
+    Boarding_Pass: ../material_preparation_step/boarding_pass_Badr.pdf
+    Boarding_Manifest: ../material_preparation_step/PassengerManifest.csv
