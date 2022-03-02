@@ -16,9 +16,6 @@
             see below for the overview of the project:
         </font>
     </p>
-    <p align="center">
-        <img src="Pic/Overview.png" width="600" title="Overview of the solution to be made">
-    </p>
     <p>
         <font color=#FFEDDB> 
             To tackle this project Azure services will be used. Different azure services will be used to extract data from the different sources.
@@ -33,24 +30,21 @@
                 <li> Video: Collect the emotion of the passengers </li>
                 <li> Other: Identifying a lighter in passengers luggage </li>
             </ul>
-            Below a illustration of the process that will be done behind the scene:
+            Below a illustration of the data flow process that will be taken place behind the scene:
         </font>
         <p align="center">
-            <img src="Pic/Process.jpg" width="600">
-            <img src="Pic/Process2.jpg" width="600">
+            <img src="Pic/DataFlow.png" width="1200">
         </p>
     </p>
       <p>
         <font color=#FFEDDB> 
-            The End Result and summary of the resources to be used and dataflow is shown below. The passanger will be prompt a message with the process being succesfuel
-            see picture below
+            The End Result and summary of the resources to be used is shown below. The passanger will be prompt a message with the process being succesfuel
+            see picture below. The threshold for confidence level will differ, for face validation 80%, lighter detection 50%, text information 80%. As lighter
+            is a critical thing flagging detection is important as passing the detection can be dangerous. Face and text detection is set high to avoid false detection
+            leading to false verification.
         </font>
         <p align="center">
             <img src="Pic/ProcessSummary.png" width="800">
         </p>
     </p>
-</div>
-<h2><font color=#E3B7A0> Data Extraction </font></h2>
-<div style="margin-left:2.5em">
-    <h3><font color=#EDCDBB> Extracting Data from BoardingPass and ID</font></h3>
 </div>
